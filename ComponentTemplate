@@ -1,0 +1,35 @@
+<template>
+    <div>
+    </div>
+</template>
+
+<script>
+    import { mapActions, mapState, mapGetters } from 'vuex';
+
+
+    export default {
+        name: 'SiteOffers',
+        computed: {
+            ...mapState(
+                {}
+            ),
+            ...mapGetters(
+                {
+
+                }
+            )
+        },
+        components: {
+        },
+        mounted() {
+        },
+        methods: {
+            ...mapActions([
+            ])
+        },
+    };
+</script>
+
+<style lang="sass" scoped>
+    @import "styles/offer.scss"
+</style>

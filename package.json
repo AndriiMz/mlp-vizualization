@@ -1,0 +1,51 @@
+{
+  "name": "mallmap-frontend-app",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "andrii <moroz97andre@mail.ua>",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "@voerro/vue-tagsinput": "^1.11.1",
+    "axios": "^0.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.2.1",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "dotenv": "^8.1.0",
+    "json-loader": "^0.5.7",
+    "konva": "^4.1.0",
+    "lodash": "^4.17.11",
+    "mlp-vue": "^1.4.2",
+    "pretty-checkbox": "^3.0.3",
+    "v-chart-plugin": "^1.0.1",
+    "vue": "^2.5.3",
+    "vue-axios": "^2.1.4",
+    "vue-konva": "^2.1.1",
+    "vue-moment": "^4.0.0",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.0.1",
+    "vuex-loading": "^1.0.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.1",
+    "css-loader": "^0.28.7",
+    "dotenv-webpack": "^1.7.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "node-sass": "^4.6.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "vue-loader": "^13.5.0",
+    "vue-template-compiler": "^2.5.3",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
